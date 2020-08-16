@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To-Do List App</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="js-clock">
+          <h1>00:00</h1>
+        </div>
+      </section>
+      <section>
+        <form class="js-form form">
+          <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+      </section>
+      <section>
+        <form class="js-toDoForm">
+          <input type="text" placeholder="Write a to do" />
+        </form>
+        <div class="div-toDo-list">
+          <div class="div-toDo-box">
+            <h2>PENDING</h2>
+            <ul class="div-pending"></ul>
+          </div>
+          <div class="div-toDo-box">
+            <h2>FINISHED</h2>
+            <ul class="div-finished"></ul>
+          </div>
+        </div>
+      </section>
+      <section>
+        <span class="js-weather"></span>
+      </section>
+      <script src="./js/clock.js"></script>
+      <script src="./js/greeting.js"></script>
+      <script src="./js/todo.js"></script>
+      <script src="./js/bg.js"></script>
+      <script src="./js/weather.js"></script>
+    </main>
+  </body>
+</html>
